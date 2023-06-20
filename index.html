@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="carousel-container">
+        <a class="slick-arrow slick-prev">
+          <i class="fas fa-angle-left"></i>
+        </a>
+        <div class="slick-list">
+          <div class="slick-track">
+            <div id="lastClone" class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 584px;">
+              <div class="list-item">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+
+              </div>
+            </div>
+    
+            <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 584px;">
+                <div class="list-item">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+    
+                  </div>
+            </div>
+            <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 584px;">
+                <div class="list-item">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+    
+                  </div>
+            </div>
+            <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 584px;">
+                <div class="list-item">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+    
+                  </div>
+            </div>
+            <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 584px;">
+                <div class="list-item">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+    
+                  </div>
+            </div>
+            <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 584px;">
+                <div class="list-item">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+    
+                  </div>
+            </div>
+    
+            <div id="firstClone" class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 584px;">
+                <div class="list-item">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+    
+                  </div>
+            </div>
+          </div>
+        </div>
+        <a class="slick-arrow slick-next">
+          <i class="fas fa-angle-right"></i>
+        </a>
+        <ul class="slick-dots">
+          <li class="slick-active">
+            <button>1</button>
+          </li>
+          <li class="">
+            <button>2</button>
+          </li>
+          <li class="">
+            <button>3</button>
+          </li>
+          <li class="">
+            <button>4</button>
+          </li>
+          <li class="">
+            <button>5</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-filler">
+        <div class="input-search">
+            <input id="keySearch" onkeyup="searchFunc()" type="text">
+            <span onclick="clearSearch()" id="icon-x">x</span>
+        </div>
+        <button id="btn-sort" onclick="sortFunc()" >A-Z</button>
+        <button onclick="addressFun()">Address</button>
+      </div>
+
+      <div class="content-result">
+        <div id="list-result">
+           
+        </div>
+      </div>
+  <script src="main.js"></script>
+</body>
+</html>

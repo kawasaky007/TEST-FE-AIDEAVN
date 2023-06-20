@@ -1,0 +1,134 @@
+
+  
+  ul{ list-style: none; }
+  
+  .slick-slide{
+    overflow: hidden;
+    width: 186px;
+    height: 160px;
+    .list-item{
+        display: flex;
+        .item{
+            background-color: rgb(14, 209, 44);
+            width: 168px;
+            height: 160px;
+            margin:0 10px;
+        }
+    }
+
+
+  }
+  
+  .carousel-container{
+    width: 584px;
+      height: 160px;
+      margin: 20px auto;
+      overflow: hidden;
+      position: relative;
+      /* border: 5px solid black; */
+  }
+  
+  .slick-track{
+    width: 6000px;
+    display: flex;
+    transition: 0.1s;
+    transform: translateX(-584px);
+  }
+  
+  .slick-dots{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .slick-dots li{ margin: 0px 7px; }
+  .slick-dots button{
+    border: none;
+      border-radius: 50%;
+      background: #c3a7a7;
+      color: #c3a7a7;
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+      outline: none;
+      font-size: 0px;
+      transition: 0.25s;
+  }
+  
+  .slick-arrow{
+    position: absolute;
+      display: block;
+      width: 30px;
+      height: 30px;
+      background: #ffecec;
+      top:45%;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 30px;
+      font-size: 25px;
+      color: #211616;
+      z-index: 20;
+  }
+  .slick-next{
+    right: 7px;
+  }
+  .slick-prev{
+    left: 7px;
+  }
+  .slick-active button{
+    background: red;
+  }
+  .menu-filler{
+    display: flex;
+    gap: 10px;
+    .input-search{
+        position: relative;
+        input{
+            width: 280px;
+            border-radius: 3px;
+            height: 30px;
+            border: 1px solid #12c155;
+        }
+        #icon-x{
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            cursor: pointer;
+        }
+    }
+    button{
+     background-color: #12c155;
+     border: 1px solid #12c155;
+     color: #fff;
+     box-shadow: 5px 0 4px 3px;
+    }
+  }
+  .content-result{
+    #list-result{
+        .item-result{
+            display: flex;
+            align-items: center;
+            .avatar{
+                width: 150px;
+                height: 150px;
+                img{
+                    max-width: 100%;
+                }
+            }
+            .info{
+                .category{
+                    border: 1px solid #211616;
+                    border-radius: 15px;
+                    text-align: center;
+                    padding: 6px 8px;
+                }
+            }
+        }
+    }
+  }
+
+  .btn-to-z{
+    background-color: rgb(105, 25, 25)!important;
+  }
